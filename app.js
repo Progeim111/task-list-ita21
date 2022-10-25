@@ -19,3 +19,4 @@ function addTask(e) {
     taskInput.value = ''
     e.preventDefault()
 }
+
