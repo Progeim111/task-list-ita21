@@ -21,7 +21,6 @@ function addTask(e) {
     taskInput.value = ''
     e.preventDefault()
 }
-
 function deleteTask(e){
     if(e.target.textContent == 'X'){
         if(confirm('Are you sure to delete this task?')){
